@@ -1,8 +1,8 @@
 spring:
   datasource:
-     url: jdbc:postgresql://localhost:5432/market
+     url: jdbc:postgresql://3.69.157.49:5432/market
      username: postgres
-     password: 123
+     password: MuRaD198852_Mmm
   jpa:
      hibernate:
        ddl-auto: update
@@ -22,3 +22,11 @@ logging:
       springframework:
         security: debug
 debug: true
+
+ftp:
+  server:
+    host: 3.69.157.49
+    port: 21
+    username: market
+    password: MuRaD198852_Mmm
+    directory: /images
